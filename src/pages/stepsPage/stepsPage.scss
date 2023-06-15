@@ -1,0 +1,18 @@
+.step__content {
+  padding: 64px 110px;
+  background-color: #fff;
+  border-radius: 24px;
+  margin-top: 24px;
+  .step__body {
+    &-form {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    &-nav {
+      margin-top: 64px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
