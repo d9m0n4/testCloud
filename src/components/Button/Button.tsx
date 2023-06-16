@@ -4,6 +4,7 @@ import './Button.scss';
 export enum ButtonVariant {
   PRIMARY = 'primary',
   SECONDARY = 'secondary',
+  EMPTY = 'empty',
 }
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {

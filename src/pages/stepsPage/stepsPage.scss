@@ -4,10 +4,16 @@
   border-radius: 24px;
   margin-top: 24px;
   .step__body {
+    margin-top: 64px;
     &-form {
       display: flex;
       flex-direction: column;
       gap: 24px;
+      .form__group {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
     }
     &-nav {
       margin-top: 64px;

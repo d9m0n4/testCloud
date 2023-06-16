@@ -14,4 +14,8 @@
     border: 1.5px solid #5558fa;
     color: #5558fa;
   }
+  &.empty {
+    padding: 0;
+    background-color: transparent;
+  }
 }

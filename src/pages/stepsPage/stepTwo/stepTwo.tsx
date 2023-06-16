@@ -1,15 +1,31 @@
 import { Input } from '../../../components/Input/Input';
 import { Button, ButtonVariant } from '../../../components/Button/Button';
 import { ReactComponent as Plus } from '../../../assets/plus.svg';
+import { ReactComponent as Delete } from '../../../assets/delete.svg';
 
 export const StepTwo = () => {
   return (
     <>
       <div className="step__body-form">
         <div className="step__body-form__title">Advantages</div>
-        <Input onChange={(e) => console.log(e)} />
-        <Input onChange={(e) => console.log(e)} />
-        <Input onChange={(e) => console.log(e)} />
+        <div className="form__group">
+          <Input onChange={(e) => console.log(e)} />
+          <Button variant={ButtonVariant.EMPTY}>
+            <Delete />
+          </Button>
+        </div>
+        <div className="form__group">
+          <Input onChange={(e) => console.log(e)} />
+          <Button variant={ButtonVariant.EMPTY}>
+            <Delete />
+          </Button>
+        </div>
+        <div className="form__group">
+          <Input onChange={(e) => console.log(e)} />
+          <Button variant={ButtonVariant.EMPTY}>
+            <Delete />
+          </Button>
+        </div>
         <div className="step__body-btn">
           <Button variant={ButtonVariant.SECONDARY}>
             <Plus />
